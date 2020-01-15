@@ -1,0 +1,40 @@
+{
+  "city": "Ekaterinburg",
+  "weathers": [
+    {
+      "name": "sun",
+      "temp": -5,
+      "day": "Wed"
+    },
+    {
+      "name": "cloudly",
+      "temp": -3,
+      "day": "Thu"
+    },
+    {
+      "name": "snow",
+      "temp": -9,
+      "day": "Fri"
+    },
+    {
+      "name": "cloudly-sun",
+      "temp": -14,
+      "day": "Sat"
+    },
+    {
+      "name": "sun",
+      "temp": -7,
+      "day": "Sun"
+    },
+    {
+      "name": "cloudly-sun",
+      "temp": -9,
+      "day": "Mon"
+    },
+    {
+      "name": "cloudly",
+      "temp": -15,
+      "day": "Tue"
+    }
+  ]
+}

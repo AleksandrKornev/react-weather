@@ -1,0 +1,38 @@
+.item {
+  &__wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80px;
+    height: 105px;
+    padding: 6px 0;
+    border: 1px solid #d3d3d3;
+    border-radius: 50px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: #fff;
+    color: #000;
+    transition: .4s;
+    cursor: pointer;
+
+    &:hover {
+      border-radius: 10px;
+      background: #c0a1a1;
+      color: #fff;
+      font-weight: bolder;
+    }
+  }
+
+  &__img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 400px;
+    height: 400px;
+    background-size: 100%;
+    background-image: url(../../assets/images/icons.png);
+    background-repeat: no-repeat;
+  }
+}

@@ -1,0 +1,19 @@
+.App {
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: 100vh;
+    background: #9c7979;
+    text-align: center;
+  }
+
+  display: flex;
+  align-items: center;
+  width: 700px;
+  height: 200px;
+  background: #fff;
+  box-shadow: 0 0 25px 1px #666;
+  border-radius: 20px;
+}
